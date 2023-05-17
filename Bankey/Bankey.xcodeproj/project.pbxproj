@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DF4CDC4F2A0DD0E700AB38BA /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4CDC4E2A0DD0E600AB38BA /* DummyViewController.swift */; };
 		DF4CDC522A0DD85A00AB38BA /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4CDC512A0DD85A00AB38BA /* LocalState.swift */; };
+		DF55CB7F2A1583D100317A17 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55CB7E2A1583D100317A17 /* UIViewController+Utils.swift */; };
+		DF55CB812A15894900317A17 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55CB802A15894900317A17 /* MainViewController.swift */; };
 		DFD1356229DCCE7C00607706 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1356129DCCE7C00607706 /* OnboardingContainerViewController.swift */; };
 		DFD1356429DD0B4B00607706 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1356329DD0B4B00607706 /* OnboardingViewController.swift */; };
 		DFF5274929DBF051006B8558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5274829DBF051006B8558 /* AppDelegate.swift */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		DF4CDC4E2A0DD0E600AB38BA /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		DF4CDC512A0DD85A00AB38BA /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		DF55CB7E2A1583D100317A17 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		DF55CB802A15894900317A17 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DFD1356129DCCE7C00607706 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		DFD1356329DD0B4B00607706 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DFF5274529DBF051006B8558 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				DF4CDC512A0DD85A00AB38BA /* LocalState.swift */,
+				DF55CB7E2A1583D100317A17 /* UIViewController+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -79,11 +84,12 @@
 		DFF5274729DBF051006B8558 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				DF4CDC502A0DD84800AB38BA /* Utils */,
-				DFD1356029DCCE5000607706 /* Onboarding */,
-				DFF5276129DBF18F006B8558 /* Login */,
 				DFF5274829DBF051006B8558 /* AppDelegate.swift */,
+				DFF5276129DBF18F006B8558 /* Login */,
+				DFD1356029DCCE5000607706 /* Onboarding */,
+				DF4CDC502A0DD84800AB38BA /* Utils */,
 				DFF5276029DBF17B006B8558 /* Files */,
+				DF55CB802A15894900317A17 /* MainViewController.swift */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF55CB7F2A1583D100317A17 /* UIViewController+Utils.swift in Sources */,
 				DFF5275F29DBF145006B8558 /* LoginView.swift in Sources */,
 				DF4CDC522A0DD85A00AB38BA /* LocalState.swift in Sources */,
 				DF4CDC4F2A0DD0E700AB38BA /* DummyViewController.swift in Sources */,
 				DFF5274D29DBF051006B8558 /* LoginViewController.swift in Sources */,
 				DFD1356429DD0B4B00607706 /* OnboardingViewController.swift in Sources */,
+				DF55CB812A15894900317A17 /* MainViewController.swift in Sources */,
 				DFF5274929DBF051006B8558 /* AppDelegate.swift in Sources */,
 				DFD1356229DCCE7C00607706 /* OnboardingContainerViewController.swift in Sources */,
 			);
